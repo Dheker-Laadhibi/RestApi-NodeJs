@@ -1,0 +1,22 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js",
+    "dev": "nodemon server.js",
+    "_comment": "we used dev to restart the server  after each modifications "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.6.1",
+    "nodemon": "^3.1.4",
+    "validator": "^13.12.0"
+  }
+}
